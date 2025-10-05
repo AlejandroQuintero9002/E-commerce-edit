@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "proyecto2-app",
+    "slug": "proyecto2-app",
+    "version": "1.0.2",                      
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",           
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "versionCode": 3,                     
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.mike_one.proyecto2app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "55844c1f-0288-4d84-b731-39aaa0ddbeb3"
+      }
+    }
+  }
+}
